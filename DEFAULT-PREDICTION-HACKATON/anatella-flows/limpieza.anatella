@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ANATELLA version='3.94'>
+<GlobalParameters wDirLoc='1' dataDirRead='D:/_User/Desktop/SEXTO SEMESTRE/HACKATON/DATASETS_ANATELLA' dataDirWrite=':/'>
+</GlobalParameters>
+<WorkingSpace zoom='0.617344' x='-1723' y='-56'>AAAA/wAAAAD9AAAAAgAAAAEAAAGGAAABw/wCAAAAAvsAAAAoAEEAYwB0AGkAbwBuAFAAcgBvAHAAZQByAHQAaQBlAHMARABvAGMAawEAAABbAAAAzQAAAJYA/////AAAAS0AAADxAAAAsQEAABz6AAAAAAEAAAAC+wAAAA4ATABvAGcARABvAGMAawEAAAAA/////wAAAHIA////+wAAABwAQQBsAGwAQQBjAHQAaQBvAG4AcwBEAG8AYwBrAQAABfoAAAGGAAAAigD///8AAAADAAAHgAAAAcb8AQAAAAH7AAAAGgBEAGEAdABhAFQAYQBiAGwAZQBEAG8AYwBrAQAAAAAAAAeAAAAB0wD///8AAAX1AAABwwAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAADAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAQAAA5L/////AAAAAAAAAAAAAAAeAGcAcgBvAHUAcABCAG8AeABUAG8AbwBsAEIAYQByAQAABkT/////AAAAAAAAAAA=</WorkingSpace>
+<ACTIONS>
+<readGel idx='2' x='-2700.26' y='319.257' fileName='D:/_User/Downloads/train_labels.gel_anatella'/>
+<ReadColumnarGel keyHD='175755417903156427' module='MathParser' idx='4' x='-2577.81' y='-33.7772' fileName=':/5m_liviano.cgel_anatella'>
+ <CFilterRows >
+  <Expression>1</Expression>
+  <InputVars>
+  </InputVars>
+ </CFilterRows>
+</ReadColumnarGel>
+<Join keyHD='175754208512172016' module='DefaultActions' idx='11' x='-2082.53' y='-171.372' joinMode='0' keyA='customer_ID'>
+<SlaveKeys><c>customer_ID</c><c></c><c></c></SlaveKeys>
+<Prefixes><c></c><c></c><c>T2_</c><c>T3_</c></Prefixes>
+</Join>
+<sort idx='12' v='3.06' x='-2368.39' y='-27.336' action='S'>
+  <field type='A'>customer_ID</field>
+</sort>
+<sort keyHD='175702447212608194' idx='13' v='3.06' x='-2321.88' y='174.185' action='S'>
+  <field type='A'>customer_ID</field>
+</sort>
+<ChangeDataType idx='14' x='-2515.65' y='186.78'>
+<toStringFromFloat><c>customer_ID</c></toStringFromFloat>
+</ChangeDataType>
+<writeColumnarGel keyHD='175702512212608397' module='MathParser' idx='15' v='3.19' x='-1729.98' y='-169.579' file=':/FULLDATASET_TARGET.cgel_anatella'/>
+<ReadColumnarGel keyHD='175702554812608180' module='MathParser' idx='16' x='-1348.04' y='43.1495' fileName=':/FULLDATASET_TARGET.cgel_anatella'>
+ <CFilterRows >
+  <Expression>1</Expression>
+  <InputVars>
+  </InputVars>
+ </CFilterRows>
+</ReadColumnarGel>
+<aggregate keyHD='175720186409808453' idx='20' x='-1359.49' y='249.383' inRAMAlgo='1'>
+ <OneAggregate counts='1'>
+  <GroupBy>
+  </GroupBy>
+  <OutputVars>
+   <v name='S_2' countNonNull='1' countNonEmpty='1'/>
+   <v name='P_2' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_39' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_1' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_2' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_1' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_3' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_41' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_3' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_42' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_43' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_44' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_4' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_45' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_5' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_2' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_46' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_47' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_48' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_49' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_6' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_7' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_8' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_50' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_51' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_9' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_3' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_52' countNonNull='1' countNonEmpty='1'/>
+   <v name='P_3' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_10' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_53' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_5' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_11' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_6' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_54' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_4' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_7' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_12' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_8' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_55' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_56' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_13' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_5' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_58' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_9' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_14' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_59' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_60' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_61' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_15' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_11' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_62' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_63' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_64' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_65' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_16' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_17' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_18' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_19' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_66' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_20' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_68' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_12' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_6' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_13' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_21' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_69' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_22' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_70' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_71' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_72' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_15' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_23' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_73' countNonNull='1' countNonEmpty='1'/>
+   <v name='P_4' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_74' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_75' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_76' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_24' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_7' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_77' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_25' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_26' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_78' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_79' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_8' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_9' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_16' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_80' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_10' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_11' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_27' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_81' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_82' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_17' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_12' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_28' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_13' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_83' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_14' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_15' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_84' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_16' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_29' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_30' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_18' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_86' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_87' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_17' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_18' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_88' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_31' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_19' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_19' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_32' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_20' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_20' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_21' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_33' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_89' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_22' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_23' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_91' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_92' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_93' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_94' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_24' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_25' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_96' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_22' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_23' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_24' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_25' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_26' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_102' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_103' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_104' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_105' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_106' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_107' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_36' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_37' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_26' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_27' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_38' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_108' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_109' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_110' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_111' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_39' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_112' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_40' countNonNull='1' countNonEmpty='1'/>
+   <v name='S_27' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_113' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_114' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_115' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_116' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_117' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_118' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_119' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_120' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_121' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_122' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_123' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_124' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_125' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_126' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_127' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_128' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_129' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_41' countNonNull='1' countNonEmpty='1'/>
+   <v name='B_42' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_130' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_131' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_132' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_133' countNonNull='1' countNonEmpty='1'/>
+   <v name='R_28' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_134' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_135' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_136' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_137' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_138' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_139' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_140' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_141' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_142' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_143' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_144' countNonNull='1' countNonEmpty='1'/>
+   <v name='D_145' countNonNull='1' countNonEmpty='1'/>
+  </OutputVars>
+ </OneAggregate>
+</aggregate>
+<Generic keyHD='175720210709808540' idx='21' x='-1181.89' y='251.816' id='transpose'
+  longName='transpose the full table'
+  le='1404836334296'
+  keywords='transpose pivot table'
+  image='/transpose.png'
+  author='Frank Vanden Berghen'
+  revision='0.05'
+  tags='800_Other'
+  pdfDestination='5_25_2_transpose'>
+<Description>
+Transpose the full table. Only work for SMALL tables since the whole table is loaded into RAM.
+</Description>
+<Parameters>
+  <Parameter id='firstColContainsColName' text='first Column Contains Column Names' type='bool'>0</Parameter>
+  <Parameter id='hasToCreateColumn' text='Create a column with the (old) column names' type='bool'>1</Parameter>
+  <Parameter id='colPrefix' text='prefix column name' type='string'></Parameter>
+</Parameters>
+<Script>
+function fullTableRequiredToComputeMetas(idxPinIn) { return true; }
+var rowIdx,nRows,myRow,fullTable;
+
+function init()
+{
+    fullTable=new Array();
+    rowIdx=0;
+    return 0;
+}
+
+function run()
+{
+    if (rowIdx==0)
+    {
+        var r;
+        for(;;)
+        {
+            r=getNextRow();
+            if (r.isNull) break;
+            fullTable.push(rowDeepCopy(r));
+        }
+        var i=0,n=fullTable.length,base=0;
+        if (!n) return 1;
+        nRows=fullTable[0].nColumn;
+        if (hasToCreateColumn) { i=1; n++; base=1; }
+        setOutputRowSize(0,n);
+        myRow=new Row(n);
+        if (firstColContainsColName)
+        {
+            rowIdx=1;
+            for(;i&lt;n;i++)
+                 rowSetColumnName(myRow,i,colPrefix+fullTable[i-base].col(0)); 
+        } else
+        {
+            for(;i&lt;n;i++)
+                 rowSetColumnName(myRow,i,colPrefix+"C"+(i+1)); 
+        }
+        if (hasToCreateColumn) 
+        {
+            if (firstColContainsColName) rowSetColumnName(myRow,0,rowGetColumnName(fullTable[0],0));
+            else rowSetColumnName(myRow,0,"OldColumnNames");
+        }
+    }
+    var i=0,n=fullTable.length,base=0;
+    if (hasToCreateColumn)
+    {
+        myRow.setColumn(0,rowGetColumnName(fullTable[0],rowIdx));
+         i=1; n++; base=1;
+    }
+    for(;i&lt;n;i++)
+        myRow.setColumn(i,fullTable[i-base].col(rowIdx));
+    myRow.write(); 
+    writeEOL();
+    rowIdx++;
+    if (rowIdx==nRows) return 1;
+    return 0;
+}
+</Script>
+</Generic>
+<FilterRows keyHD='175720224709808263' module='MathParser' idx='23' x='-1009.03' y='296.515'>
+ <Expression>C2>0.99*5531451</Expression>
+ <InputVars>
+    <InputVar column='C2'/>
+ </InputVars>
+</FilterRows>
+<ChangeDataType keyHD='175719165209808103' idx='24' x='-1223.83' y='-137.659'>
+<toDouble><c>P_2</c><c>D_39</c><c>B_1</c><c>B_2</c><c>R_1</c><c>S_3</c><c>D_41</c><c>B_3</c><c>D_42</c><c>D_43</c><c>D_44</c><c>B_4</c><c>D_45</c><c>B_5</c><c>R_2</c><c>D_46</c><c>D_47</c><c>D_48</c><c>D_49</c><c>B_6</c><c>B_7</c><c>B_8</c><c>D_50</c><c>D_51</c><c>B_9</c><c>R_3</c><c>D_52</c><c>P_3</c><c>B_10</c><c>D_53</c><c>S_5</c><c>B_11</c><c>S_6</c><c>D_54</c><c>R_4</c><c>S_7</c><c>B_12</c><c>S_8</c><c>D_55</c><c>D_56</c><c>B_13</c><c>R_5</c><c>D_58</c><c>S_9</c><c>B_14</c><c>D_59</c><c>D_60</c><c>D_61</c><c>B_15</c><c>S_11</c><c>D_62</c><c>D_63</c><c>D_64</c><c>D_65</c><c>B_16</c><c>B_17</c><c>B_18</c><c>B_19</c><c>D_66</c><c>B_20</c><c>D_68</c><c>S_12</c><c>R_6</c><c>S_13</c><c>B_21</c><c>D_69</c><c>B_22</c><c>D_70</c><c>D_71</c><c>D_72</c><c>S_15</c><c>B_23</c><c>D_73</c><c>P_4</c><c>D_74</c><c>D_75</c><c>D_76</c><c>B_24</c><c>R_7</c><c>D_77</c><c>B_25</c><c>B_26</c><c>D_78</c><c>D_79</c><c>R_8</c><c>R_9</c><c>S_16</c><c>D_80</c><c>R_10</c><c>R_11</c><c>B_27</c><c>D_81</c><c>D_82</c><c>S_17</c><c>R_12</c><c>B_28</c><c>R_13</c><c>D_83</c><c>R_14</c><c>R_15</c><c>D_84</c><c>R_16</c><c>B_29</c><c>B_30</c><c>S_18</c><c>D_86</c><c>D_87</c><c>R_17</c><c>R_18</c><c>D_88</c><c>B_31</c><c>S_19</c><c>R_19</c><c>B_32</c><c>S_20</c><c>R_20</c><c>R_21</c><c>B_33</c><c>D_89</c><c>R_22</c><c>R_23</c><c>D_91</c><c>D_92</c><c>D_93</c><c>D_94</c><c>R_24</c><c>R_25</c><c>D_96</c><c>S_22</c><c>S_23</c><c>S_24</c><c>S_25</c><c>S_26</c><c>D_102</c><c>D_103</c><c>D_104</c><c>D_105</c><c>D_106</c><c>D_107</c><c>B_36</c><c>B_37</c><c>R_26</c><c>R_27</c><c>B_38</c><c>D_108</c><c>D_109</c><c>D_110</c><c>D_111</c><c>B_39</c><c>D_112</c><c>B_40</c><c>S_27</c><c>D_113</c><c>D_114</c><c>D_115</c><c>D_116</c><c>D_117</c><c>D_118</c><c>D_119</c><c>D_120</c><c>D_121</c><c>D_122</c><c>D_123</c><c>D_124</c><c>D_125</c><c>D_126</c><c>D_127</c><c>D_128</c><c>D_129</c><c>B_41</c><c>B_42</c><c>D_130</c><c>D_131</c><c>D_132</c><c>D_133</c><c>R_28</c><c>D_134</c><c>D_135</c><c>D_136</c><c>D_137</c><c>D_138</c><c>D_139</c><c>D_140</c><c>D_141</c><c>D_142</c><c>D_143</c><c>D_144</c><c>D_145</c></toDouble>
+</ChangeDataType>
+<aggregate keyHD='175719327209808893' idx='25' x='-836.909' y='-138.077' inRAMAlgo='1'>
+ <OneAggregate counts='1'>
+  <GroupBy>
+   <v name='S_2'/>
+  </GroupBy>
+  <OutputVars>
+  </OutputVars>
+ </OneAggregate>
+</aggregate>
+<Generic idx='27' x='-630.65' y='-136.515' id='splitRE'
+  longName='split a column into several fields'
+  keywords='split column regular expression regexp'
+  image='/splitRE.svg'
+  author='Frank Vanden Berghen'
+  revision='0.01'
+  tags='500_Formatter'
+  pdfDestination='5_19_4_split'>
+<Description>
+This operator extract from one column different fields, 
+based on a regular expression containing capturing parenthesis.
+</Description>
+<Parameters>
+  <Parameter id='idCol' text='column to split' type='onecolumn'><meta>0</meta><data></data></Parameter>
+  <Parameter id='myRE' text='regular expression with (captures)' type='string'>^([^\t]+)\t([^\t]+)\t([^\t]+)$</Parameter>
+  <Parameter id='colNames' text='new column names (comma separated)' type='string'>company,web,country</Parameter>
+  <Parameter id='isGlobal' text='global (/g) RegExp' type='bool'>1</Parameter>
+  <Parameter id='isCaseInsensitive' text='ignorecase (/i) RegExp' type='bool'>1</Parameter>
+</Parameters>
+<Script>
+function parallelRun(v) { return true; }
+var myRow,re;
+function init()
+{
+    var r=getCurrentRow();
+    if (r.isNull) return 1;
+    var mySplitResult = colNames.split(","),
+           n=mySplitResult.length;
+    setOutputRowSize(0,r.nColumn+n);
+    myRow=new Row(n);
+    for(i=0;i&lt;n;i++) rowSetColumnName(myRow,i,mySplitResult[i]);
+    re=RegExp(myRE);
+    re.global=isGlobal;
+    re.ignoreCase=isCaseInsensitive;
+    return 0;
+}
+
+function run()
+{
+    var r=getNextRow();
+    if (r.isNull) return 1;
+    r.write(); 
+
+    var v=r.col(idCol);
+    if ((v==null)||(v=="")||(!re.test(v))) rowWriteNull(myRow);
+    else
+    {
+        var a=re.exec(v);
+        var i=a.length-1;
+        while(i--) myRow.setColumn(i,a[i+1]);
+        for(i=a.length-1;i&lt;myRow.nColumn;i++) myRow.setColumn(i);
+        myRow.write();
+    }
+    writeEOL();
+    return 0;
+}
+</Script>
+</Generic>
+<writeGel idx='30' x='-986.438' y='4.23999' file=':/dataset_target.gel_anatella'/>
+<readGel idx='31' x='-989.594' y='137.131' fileName='D:/_User/Downloads/test.gel_anatella'/>
+<sort keyHD='175721764709808297' idx='32' v='3.06' x='-792.693' y='128.314' action='S'>
+  <field type='A'>customer_ID</field>
+</sort>
+<sort keyHD='175721862109808597' idx='33' v='3.06' x='-747.789' y='13.8679' action='S'>
+  <field type='A'>customer_ID</field>
+</sort>
+<Join module='DefaultActions' idx='35' x='-493.212' y='81.0313' joinMode='0' keyA='customer_ID'>
+<SlaveKeys><c>customer_ID</c></SlaveKeys>
+<Prefixes><c></c><c></c></Prefixes>
+</Join>
+<readGel idx='36' x='-1967.7' y='395.93' fileName=':/dataset_target.gel_anatella'/>
+<readGel idx='38' x='-1375.59' y='434.63' fileName=':/dataset_target.gel_anatella'/>
+<SelectColumns keyHD='175728916313952112' module='DefaultActions' idx='39' x='-1127.91' y='434.63' keep='1'>
+ <c>customer_ID</c>
+ <c>B_38</c>
+ <c>D_114</c>
+ <c>B_2</c>
+ <c>B_3</c>
+ <c>B_7</c>
+ <c>B_9</c>
+ <c>B_22</c>
+ <c>D_131</c>
+ <c>D_44</c>
+ <c>D_46</c>
+ <c>D_48</c>
+ <c>D_51</c>
+ <c>D_52</c>
+ <c>D_62</c>
+ <c>D_75</c>
+ <c>D_77</c>
+ <c>R_1</c>
+ <c>R_3</c>
+ <c>R_27</c>
+ <c>S_3</c>
+ <c>S_8</c>
+ <c>S_24</c>
+ <c>target</c>
+</SelectColumns>
+<writeGel idx='40' x='-923.055' y='445.786' file=':/clean_datarget.gel_anatella'/>
+<writeExcel module='WriteReport' idx='41' v='3.05' x='-1738.24' y='386.787' fileNameDestination=':/datasetAnalisis.xlsx' writeAllColumns='0' floatToString='%f' sheetName='Sheet2'>
+  <ToDate><c>S_2</c></ToDate>
+</writeExcel>
+<writeExcel keyHD='175744847223560157' module='WriteReport' idx='42' v='3.05' x='-2358.44' y='334.474' fileNameDestination=':/tablastarget.csv' forceRecompute='0' floatToString='%g'/>
+</ACTIONS>
+<CONNECTORS>
+<Connection idxSrc='4' idxDest='12'/>
+<Connection idxSrc='2' idxDest='14'/>
+<Connection idxSrc='14' idxDest='13'>
+  <Point x='-2418.77' y='202.718'/>
+</Connection>
+<Connection idxSrc='12' idxDest='11'/>
+<Connection idxSrc='13' idxDest='11' idxPinIn='1'/>
+<Connection idxSrc='16' idxDest='20'/>
+<Connection idxSrc='20' idxDest='21'/>
+<Connection idxSrc='21' idxDest='23'/>
+<Connection idxSrc='16' idxDest='24'/>
+<Connection idxSrc='24' idxDest='25'/>
+<Connection idxSrc='25' idxDest='27'/>
+<Connection idxSrc='16' idxDest='30'/>
+<Connection idxSrc='31' idxDest='32'/>
+<Connection idxSrc='30' idxDest='33'/>
+<Connection idxSrc='32' idxDest='35'/>
+<Connection idxSrc='33' idxDest='35' idxPinIn='1'>
+  <Point x='-481.809' y='-9.50313'/>
+  <Point x='-481.809' y='101.683'/>
+</Connection>
+<Connection idxSrc='38' idxDest='39'/>
+<Connection idxSrc='39' idxDest='40'/>
+<Connection idxSrc='36' idxDest='41'/>
+<Connection idxSrc='2' idxDest='42'/>
+</CONNECTORS>
+<TEXTANNOTATIONS>
+  <Annotation x='-2539.26' y='-80.9087' size='14'>5M</Annotation>
+  <Annotation x='-2679.78' y='259.712' size='14'>400k</Annotation>
+  <Annotation x='-1308.8' y='0.0821836' size='14'>5m_target</Annotation>
+  <Annotation x='-1931.94' y='346.966' size='14'>5m full</Annotation>
+  <Annotation x='-1340.89' y='394.878' size='14'>5m clean</Annotation>
+</TEXTANNOTATIONS>
+</ANATELLA>

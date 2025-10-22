@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ANATELLA version='3.94'>
+<GlobalParameters wDirLoc='1' dataDirWrite=':/'>
+</GlobalParameters>
+<WorkingSpace zoom='0.877325' y='-343'>AAAA/wAAAAD9AAAAAgAAAAEAAAEAAAABm/wCAAAAAfsAAAAcAEEAbABsAEEAYwB0AGkAbwBuAHMARABvAGMAawEAAABbAAABmwAAAHgA////AAAAAwAAB4AAAAHu/AEAAAAC+wAAACgAQQBjAHQAaQBvAG4AUAByAG8AcABlAHIAdABpAGUAcwBEAG8AYwBrAQAAAAAAAAOEAAACsgD////8AAADiQAAA/cAAAHTAP////oAAAABAQAAAAL7AAAADgBMAG8AZwBEAG8AYwBrAQAAAAD/////AAAAcgD////7AAAAGgBEAGEAdABhAFQAYQBiAGwAZQBEAG8AYwBrAQAAAAD/////AAAB0wD///8AAAZ7AAABmwAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAADAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAQAAA5L/////AAAAAAAAAAAAAAAeAGcAcgBvAHUAcABCAG8AeABUAG8AbwBsAEIAYQByAQAABkT/////AAAAAAAAAAA=</WorkingSpace>
+<ACTIONS>
+<readGel idx='1' x='74.9416' y='-108.706' fileName='D:/_User/Downloads/train_labels.gel_anatella'/>
+<readGel idx='4' x='740.35' y='-289.058' fileName='D:/_User/Downloads/train.gel_anatella'/>
+<readGel idx='5' x='901.761' y='-242.94' fileName='D:/_User/Downloads/test.gel_anatella'/>
+<RemovePrefix keyHD='175632346519160560' module='CDR' idx='6' x='272.587' y='-323.646' prefix='0'>
+  <c>target</c>
+</RemovePrefix>
+<ChangeDataType keyHD='175632356619160126' idx='7' x='502.351' y='-285.764' nullStringToZero='0'>
+<toDouble><c>customer_ID</c><c>target</c></toDouble>
+<toZeroDouble><c>customer_ID</c><c>target</c></toZeroDouble>
+</ChangeDataType>
+<RunToFinishLine idx='8' x='653.88' y='-105.728' nPinIn='2'/>
+<writeExcel module='WriteReport' idx='9' v='3.05' x='424.116' y='-62.588' fileNameDestination=':/DataSet.xlsx'/>
+</ACTIONS>
+<CONNECTORS>
+<Connection idxSrc='1' idxDest='6'/>
+<Connection idxSrc='6' idxDest='7'/>
+<Connection idxSrc='7' idxDest='8'/>
+<Connection idxSrc='1' idxDest='9'/>
+<Connection idxSrc='9' idxDest='8' idxPinIn='1'/>
+</CONNECTORS>
+</ANATELLA>
