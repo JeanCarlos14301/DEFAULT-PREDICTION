@@ -1,2 +1,2 @@
 # DEFAULT-PREDICTION
-Predictive Model Interface for Potentially Delinquent Customers
+Predictive Model for Potentially Delinquent Customers
