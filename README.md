@@ -237,9 +237,4 @@ cd default-prediction-hackathon
     </td>
   </tr>
 </table>
-```
 
-
-
-
-This English version maintains all the professional elements while being accessible to international audiences and following GitHub best practices!
