@@ -3,7 +3,7 @@
 **Predictive Model for Potentially Delinquent Customers**
 
 ## 👥 FYRONYX Team
-**Members:** Jean Carlos Reyes, Juan David Jojoa, Camilo Enrique Correa, Julián Andrés Arcila  
+**Members:** Jean Carlos Reyes, Juan David Jojoa, Camilo Enrique Correa, Julián Andrés Arcila, Edgard Leonardo Patiño  
 **Systems Engineering Students**
 
 ## 📊 Project Description
