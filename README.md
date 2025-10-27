@@ -121,28 +121,16 @@ test_that("Data contains no null values", {
 
 ---
 
-## 📄 Additional Documentation
-
-- 📋 [Complete Technical Sheet](docs/technical_specification.pdf)
-- 🏗️ [Detailed Architecture](docs/architecture.md)
-- 📈 [Results Analysis](docs/results_analysis.md)
-- 🧪 [Testing Report](docs/testing_report.pdf)
-
 ---
 
 ## 👏 Acknowledgments
 
 **TIMI AMERICAS SAS** - For the challenge and technical support  
 **Hackathon FIS 2025** - For the innovation platform  
-**University** - For academic support
+**University Santo Tomás** - For academic support
 
----
 
-## 📜 License
 
-This project is for academic use. Developed for Hackathon FIS 2025.
-
----
 <div align="center">
 
 **🏆 "Credit Scoring Innovation with Real Social Impact" 🏆**
