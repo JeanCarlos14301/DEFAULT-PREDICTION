@@ -149,30 +149,8 @@ This project is for academic use. Developed for Hackathon FIS 2025.
 
 </div>
 
----
 
-## 🎨 **Visual Elements You Can Add**
 
-1. **Custom badges** like the ones shown
-2. **Architecture diagrams** in Mermaid (like the example)
-3. **Animated GIFs** of Anatella/TIMI workflow
-4. **Metrics tables** with visual emojis
-5. **Results charts** (ROC curves, importance charts)
-
-## 🔧 **Suggested Next Steps**
-
-1. **Create the folder structure** in your repository
-2. **Upload files** according to the proposed organization
-3. **Customize the README** with your specific data
-4. **Add images** of ROC curves and dashboard
-5. **Include code examples** of your unit tests
-```
-
-## 🚀 **Additional Improvements for Your English README:**
-
-### **Add this section for better visibility:**
-
-```markdown
 ## 🌟 Highlights
 
 - **High Performance:** AUC 0.84 with only 8 key variables
@@ -180,56 +158,4 @@ This project is for academic use. Developed for Hackathon FIS 2025.
 - **Real Business Impact:** Reduces financial losses and improves customer experience
 - **Social Responsibility:** Aligns with UN Sustainable Development Goals
 ```
-
-### **Include a Quick Start section:**
-```markdown
-## ⚡ Quick Start
-
-```bash
-# Clone repository
-git clone https://github.com/yourusername/default-prediction-hackathon.git
-
-# Navigate to project directory
-cd default-prediction-hackathon
-
-# Open Anatella and load the workflows
-# Import .egg files from anatella-flows/ directory
-```
-
-### **Add a Contributors section:**
-```markdown
-## 👨‍💻 Contributors
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://via.placeholder.com/100" width="100px;" alt="Jean Carlos Reyes"/>
-        <br />
-        <sub><b>Jean Carlos Reyes</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://via.placeholder.com/100" width="100px;" alt="Juan David Jojoa"/>
-        <br />
-        <sub><b>Juan David Jojoa</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://via.placeholder.com/100" width="100px;" alt="Camilo Enrique Correa"/>
-        <br />
-        <sub><b>Camilo Enrique Correa</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://via.placeholder.com/100" width="100px;" alt="Julián Andrés Arcila"/>
-        <br />
-        <sub><b>Julián Andrés Arcila</b></sub>
-      </a>
-    </td>
-  </tr>
-</table>
 
