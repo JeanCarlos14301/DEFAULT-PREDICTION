@@ -2,11 +2,6 @@
 # 🎯 FYRONYX - Default Prediction - Hackathon FIS 2025
 **Predictive Model for Potentially Delinquent Customers**
 
-![TIMI Suite](https://img.shields.io/badge/TIMI-Suite-blue)
-![Machine Learning](https://img.shields.io/badge/Machine-Learning-orange)
-![AUC-0.84](https://img.shields.io/badge/AUC-0.84-green)
-![Hackathon](https://img.shields.io/badge/Hackathon-2025-purple)
-
 ## 👥 FYRONYX Team
 **Members:** Jean Carlos Reyes, Juan David Jojoa, Camilo Enrique Correa, Julián Andrés Arcila  
 **Systems Engineering Students**
